@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .countdown {
+    margin-top: 50px;
+  }
+  
+  .progress-bar {
+    width: 80%;
+    background-color: #9e9e9e;
+    border-radius: 5px;
+    margin: 20px auto;
+  }
+  
+  #progress {
+    background-color: #6b66fa;
+    height: 20px;
+    border-radius: 5px;
+    width: 0%;
+    transition: width 1s ease-in-out;
+  }
+  
+  .Contador {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font: 600 25px black;
+    padding: 10px;
+  
+    animation: flash infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
